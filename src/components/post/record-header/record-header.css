@@ -1,0 +1,50 @@
+.RecordHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.RecordHeader__body {
+    display: flex;
+}
+
+.RecordHeader__avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.RecordHeader__avatar:hover {
+    opacity: 0.8;
+}
+
+.RecordHeader__user-name {
+    color: var(--color-white);
+    font-family: 'ChirpMedium';
+    margin-left: 10px;
+}
+
+.RecordHeader__user-name:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.RecordHeader__created-at {
+    margin-left: 10px;
+    color: var(--color-white-gray);
+}
+
+.RecordHeader__more {
+    color: var(--color-white-gray);
+    font-size: 22px !important;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.RecordHeader__more:hover {
+    color: var(--color-blue);
+    transition: 300ms ease;
+    background-color: var(--color-dark-blue);
+    cursor: pointer;
+
+}

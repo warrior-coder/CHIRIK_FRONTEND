@@ -1,0 +1,88 @@
+.AccountSwitcherButton {
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 30px;
+    height: 30px;
+    width: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.AccountSwitcherButton:hover {
+    background-color: var(--color-gray);
+    transition: 300ms ease;
+    cursor: pointer;
+}
+
+.AccountSwitcherButton__body {
+    display: flex;
+    flex-direction: row;
+}
+
+.AccountSwitcherButton__user-avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.AccountSwitcherButton__user-name {
+    margin-left: 10px;
+    color: var(--color-white);
+    font-family: 'ChirpMedium';
+}
+
+.AccountSwitcherButton__user-nick {
+    color: var(--color-white-gray);
+    font-family: 'Chirp';
+}
+
+.Sidebar__account__body {
+    display: flex;
+    flex-direction: column;
+}
+
+.AccountSwitcherButton__more {
+    font-size: 25px !important;
+}
+
+.AccountSwitcherMenu {
+    font-family: 'ChirpMedium';
+    font-size: 15px;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    display: none;
+    border-radius: 10px;
+    top: -130px;
+    left: -60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--color-black);
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.14);
+}
+
+.AccountSwitcherMenu_active {
+    display: flex;
+}
+
+.AccountSwitcherMenu__log-out {
+    width: 300px;
+    height: 40px;
+    padding-left: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--color-border-gray);
+    
+  
+}
+
+.AccountSwitcherMenu__log-out:hover {
+    background-color: var(--color-gray);
+    transition: 300ms ease;
+    cursor: pointer;
+}

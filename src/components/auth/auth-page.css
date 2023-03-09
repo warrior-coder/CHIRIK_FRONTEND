@@ -1,0 +1,37 @@
+.AuthPage {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.AuthPage__left-container {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 120% 120%;
+    background-position: center;
+    position: relative;
+}
+
+.AuthPage__left-container__background {
+    color: rgba(0, 0, 0, 0.15);
+    position: absolute;
+    font-size: 135vh !important;
+}
+
+.AuthPage__right-container {
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+
+    background-color: var(--color-black);
+}

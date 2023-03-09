@@ -1,0 +1,44 @@
+.Sidebar {
+    flex: 0.15;
+    border-right: 1px solid var(--color-border-gray);
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Sidebar__body {
+    display: flex;
+    flex-direction: column;
+}
+
+.Sidebar__logo {
+    padding: 10px;
+    color: var(--color-dark-white);
+    padding: 7px;
+    border-radius: 28px;
+}
+
+.Sidebar__logo:hover {
+    color: var(--color-blue) !important;
+    background-color: var(--color-gray);
+    transition: color 100ms ease-out;
+    cursor: pointer;
+}
+
+.Sidebar__menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.Sidebar__create-tweet-button {
+    background-color: var(--color-blue) !important;
+    border: none !important;
+    color: var(--color-white) !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 20px !important;
+    height: 40px !important;
+    margin-top: 20px !important;
+    width: 180px !important;
+}

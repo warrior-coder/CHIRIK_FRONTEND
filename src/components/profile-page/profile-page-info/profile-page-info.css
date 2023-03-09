@@ -1,0 +1,90 @@
+.ProfilePageInfo {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: var(--color-white);
+    font-family: 'Chirp';
+    border-bottom: 1px solid var(--color-border-gray);
+}
+
+.ProfilePageInfo__background {
+    background-color: var(--color-border-gray);
+    height: 200px;
+    width: 100%;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ProfilePageInfo__header {
+    display: flex;
+}
+
+.ProfilePageInfo__avatar {
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+    border: 4px solid var(--color-black);
+    margin-top: -72px;
+    margin-left: 15px;
+}
+
+.ProfilePageInfo__body {
+     display: flex;
+     flex-direction: column;
+     padding: 0 15px 20px 15px;
+}
+
+.ProfilePageInfo__user-name {
+    font-size: 20px;
+    font-family: 'ChirpMedium';
+}
+.ProfilePageInfo__joined-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.ProfilePageInfo__joined-icon {
+    color: var(--color-white-gray);
+    margin: 0;
+    font-size: 20px !important;
+    margin-right: 5px;
+}
+
+.ProfilePageInfo__joined-date {
+    color: var(--color-white-gray);
+}
+    
+.ProfilePageInfo__following-and-followers {
+    margin-top: 10px;
+    display: flex;
+    color: var(--color-white-gray);
+}
+
+.ProfilePageInfo__following-count {
+    font-family: 'ChirpMedium';
+    color: var(--color-white);
+}
+
+.ProfilePageInfo__followers-count {
+    font-family: 'ChirpMedium';
+    color: var(--color-white);
+}
+
+.ProfilePageInfo__following {
+    margin-right: 15px;
+}
+
+.ProfilePageInfo__following:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-white);
+    cursor: pointer;
+}
+
+.ProfilePageInfo__followers:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-white);
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.RecordBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.RecordBody__text {
+    word-wrap: break-word;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.RecordBody__images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.RecordBody__image {
+    margin-top: 10px;
+    border-radius: 10px;
+    border-bottom: 1px solid var(--color-border-gray);
+    max-height: 400px;
+    max-width: 100%;
+}

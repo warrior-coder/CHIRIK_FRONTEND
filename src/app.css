@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Chirp';
+    src: url(./fonts/Chirp.ttf);
+}
+
+@font-face {
+    font-family: 'ChirpMedium';
+    src: url(./fonts/ChirpMedium.ttf);
+}
+
+@font-face {
+    font-family: 'ChirpBold';
+    src: url(./fonts/ChirpBold.ttf);
+}
+
+@font-face {
+    font-family: 'ChirpHeavy';
+    src: url(./fonts/ChirpHeavy.ttf);
+}
+
+body {
+    --color-blue: #1d9bf0;
+    --color-white: #e7e9ea;
+    --color-dark-white: #d6d9db;
+    --color-dark-blue: #0a171f;
+    --color-dark-green: #071a14;
+    --color-green: #00ba7c;
+    --color-dark-pink: #200914;
+    --color-pink: #f4187e;
+    --color-black: #000000;
+    --color-gray: #181818;
+    --color-dark-gray: #070707;
+    --color-white-gray: #71767b;
+    --color-border-gray: #2f3336;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Chirp';
+    font-size: 15px;
+}
+
+.App {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}

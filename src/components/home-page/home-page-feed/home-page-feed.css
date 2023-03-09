@@ -1,0 +1,16 @@
+.HomePageFeed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HomePageFeed__view-more {
+    margin-top: 20px;
+    color: var(--color-blue);
+    font-size: 16px;
+}
+
+.HomePageFeed__view-more:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.Comment {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--color-border-gray);
+    padding: 15px 15px 5px 15px ;
+    transition: color 300ms;
+}
+
+.Comment:hover {
+    transition: 300ms ease;
+    background-color: var(--color-dark-gray);
+    cursor: pointer;
+}

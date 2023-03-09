@@ -1,0 +1,98 @@
+.RecordFooter {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    color: var(--color-white-gray);
+    font-family: 'Chirp';
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/* comment */
+.RecordFooter__comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RecordFooter__comment-icon {
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 22px !important;
+    margin-right: 5px;
+}
+
+.RecordFooter__comment:hover {
+    color: var(--color-blue);
+    transition: 300ms ease;
+    cursor: pointer;
+}
+
+.RecordFooter__comment:hover .RecordFooter__comment-icon {
+    background-color: var(--color-dark-blue);
+    transition: 300ms ease;
+}
+
+/* retweet */
+.RecordFooter__retweet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RecordFooter__retweet-icon {
+    font-size: 22px !important;
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.RecordFooter__retweet:hover {
+    color: var(--color-green);
+    transition: 300ms ease;
+    cursor: pointer;
+}
+
+.RecordFooter__retweet:hover .RecordFooter__retweet-icon {
+    background-color: var(--color-dark-green);
+    transition: 300ms ease;
+}
+
+/* like */
+.RecordFooter__like {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RecordFooter__like-icon {
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 22px !important;
+    margin-right: 5px;
+}
+
+.RecordFooter__like:hover {
+    color: var(--color-pink);
+    transition: 300ms ease;
+    cursor: pointer;
+}
+
+.RecordFooter__like:hover .RecordFooter__like-icon {
+    background-color: var(--color-dark-pink);
+    transition: 300ms ease;
+}
+
+/* share */
+.RecordFooter__share-icon {
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 22px !important;
+}
+
+.RecordFooter__share-icon:hover {
+    color: var(--color-blue);
+    background-color: var(--color-dark-blue);
+    transition: 300ms ease;
+    cursor: pointer;
+}

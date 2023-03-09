@@ -1,0 +1,41 @@
+.SidebarTab {
+    width: 100%;
+    display: flex;
+    color: var(--color-white);
+}
+
+.SidebarTab__body {
+    display: flex;
+    float: left;
+    align-items: center;
+    color: var(--color-dark-white);
+    width: auto;
+    border-radius: 30px;
+    padding-right: 10px;
+}
+
+.SidebarTab:hover .SidebarTab__body {
+    background-color: var(--color-gray);
+    color: var(--color-blue);
+    transition: 300ms ease;
+}
+
+.SidebarTab:hover {
+    cursor: pointer;
+}
+
+.SidebarTab__body_active {
+    color: var(--color-blue);
+}
+
+.SidebarTab__icon {
+    padding: 10px;
+    font-size: 25px !important;
+}
+
+.SidebarTab__text {
+    font-size: 16px;
+    line-height: 15px;
+    padding-right: 20px;
+}
+

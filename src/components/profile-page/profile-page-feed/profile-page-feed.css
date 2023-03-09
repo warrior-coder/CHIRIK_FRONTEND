@@ -1,0 +1,16 @@
+.ProfilePageFeed {
+    flex: 0.4;
+    border-right: 1px solid var(--color-border-gray);
+    /* min-width: fit-content; */
+    overflow-y: scroll;
+    background-color: var(--color-black);
+    
+    scrollbar-width: none; /* hide for Firefox */ 
+    -ms-overflow-style: none; /* hide for IE, Edge */ 
+    padding-bottom: 50vh;
+}
+
+
+.ProfilePageFeed::-webkit-scrollbar {
+    display: none; /* hide for Chrome, Safari, Opera */
+}

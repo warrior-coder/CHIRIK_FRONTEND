@@ -1,0 +1,29 @@
+.Profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    height: 100vh;
+    width: 100vw;
+}
+
+.Profile__container {
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+
+    flex: 0.4;
+    border-right: 1px solid var(--color-border-gray);
+    overflow-y: scroll;
+    background-color: var(--color-black);
+    
+    scrollbar-width: none; /* hide for Firefox */ 
+    -ms-overflow-style: none; /* hide for IE, Edge */ 
+    padding-bottom: 50vh;
+
+}
+
+.Profile__container::-webkit-scrollbar {
+    display: none; /* hide for Chrome, Safari, Opera */
+}

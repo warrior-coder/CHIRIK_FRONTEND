@@ -1,0 +1,13 @@
+.Record {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--color-border-gray);
+    /* padding: 15px 15px 5px 15px ; */
+    width: 100%;
+}
+
+.Record_hoverable:hover {
+    cursor: pointer;
+    transition: 300ms ease;
+    background-color: var(--color-dark-gray);
+}

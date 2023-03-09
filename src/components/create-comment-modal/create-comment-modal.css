@@ -1,0 +1,110 @@
+.CreateCommentModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: 200;
+}
+
+.CreateCommentModal_active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CreateCommentModal__container {
+    padding: 25px;
+    background-color: var(--color-black);
+    border-radius: 15px;
+    padding: 10px;
+    min-width: 250px;
+}
+
+.CreateCommentModal__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CreateCommentModal__user-avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.CreateCommentModal__close {
+    color: var(--color-white);
+}
+
+.CreateCommentModal__close {
+    font-size: 22px !important;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.CreateCommentModal__close:hover {
+    transition: 300ms ease;
+    background-color: var(--color-gray);
+    cursor: pointer;
+}
+
+.CreateCommentModal__body {
+    border-bottom: 1px solid var(--color-border-gray);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CreateCommentModal__input {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border: none;
+    width: 400px;
+    height: 250px;
+    word-wrap: break-word;
+    outline: none;
+    font-size: 18px;
+}
+
+.CreateCommentModal__error-message {
+    font-size: 15px;
+    color: red;
+    word-wrap: break-word;
+    margin: 10px;
+    font-family: 'Chirp';
+}
+
+.CreateCommentModal__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.CreateCommentModal__attach-image {
+    color: var(--color-blue);
+    padding: 8px;
+    font-size: 22px !important;
+    border-radius: 20px;
+}
+
+.CreateCommentModal__attach-image:hover {
+    background-color: var(--color-dark-blue);
+    transition: 300ms ease;
+    cursor: pointer;
+}
+
+.CreateCommentModal__tweet-button {
+    background-color: var(--color-blue) !important;
+    border: none !important;
+    color: var(--color-white) !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 20px !important;
+    height: 35px !important;
+    font-size: 15px !important;
+    width: 110px !important;
+}

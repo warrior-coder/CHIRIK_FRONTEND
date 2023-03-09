@@ -1,0 +1,21 @@
+.AuthInfoWidget {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Chirp';
+    font-weight: normal;
+}
+
+.AuthInfoWidget__element {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.AuthInfoWidget__icon {
+    font-size: 30px !important;
+    margin-right: 10px !important;
+
+}
+
+.AuthInfoWidget__text {
+    font-size: 20px;
+}
